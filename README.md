@@ -7,8 +7,8 @@ Fokus tahap ini:
 - Preparation: split → encoding → scaling  
 
 **Struktur Notebook**  
-- 1. Dataset Audit  
-- 2. Data Preparation  
+1. Dataset Audit  
+2. Data Preparation  
 
 **Hasil Utama**  
 - Dataset bersih, tidak ada missing/duplikat  
