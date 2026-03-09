@@ -6,6 +6,9 @@ Fokus tahap ini:
 - Audit data (distribusi, outlier, korelasi, balance kategori)  
 - Preparation: split → encoding → scaling  
 
+**Link Download Dataset**
+https://drive.google.com/file/d/1oa7MLgT9xM4CHki5t9iqGJ2RDM65XOij/view?usp=sharing
+
 **Struktur Notebook**  
 1. Dataset Audit  
 2. Data Preparation  
