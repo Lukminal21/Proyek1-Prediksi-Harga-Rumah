@@ -7,7 +7,7 @@ Fokus tahap ini:
 - Preparation: split → encoding → scaling  
 
 **Link Download Dataset**
-https://drive.google.com/file/d/1oa7MLgT9xM4CHki5t9iqGJ2RDM65XOij/view?usp=sharing
+https://drive.google.com/file/d/156oowXooqRr_Y2NlZTR84fDSe8pTLjyd/view?usp=sharing)
 
 **Struktur Notebook**  
 1. Dataset Audit  
