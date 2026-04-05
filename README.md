@@ -24,5 +24,22 @@ https://drive.google.com/file/d/156oowXooqRr_Y2NlZTR84fDSe8pTLjyd/view?usp=shari
 2. Upload Housing.csv ke /content/sample_data/  
 3. Run cell dari atas ke bawah
 
-**Status Proyek**  
-Tahap audit & preparation selesai. Selanjutnya: modeling & evaluasi.
+## Hasil Modeling Minggu ke-2
+
+Telah diimplementasikan dua algoritma regresi sesuai roadmap:
+
+- **Linear Regression** (baseline)  
+  MAE: 243,241.98 | RMSE: 279,859.73 | R²: -0.0067 (-0.67%)
+
+- **Random Forest Regressor**  
+  MAE: 252,671.95 | RMSE: 292,329.63 | R²: -0.0984 (-9.84%)
+
+**Insight:**
+Kedua model masih memberikan R² negatif. Ini menunjukkan bahwa hubungan antar fitur dan harga rumah belum cukup kuat ditangkap oleh model regresi standar. Korelasi linier antar fitur rendah, dan kemungkinan besar hubungannya bersifat non-linear.
+
+**Pelajaran & Rencana Selanjutnya:**
+- Perlu feature engineering lebih mendalam (contoh: umur rumah, interaksi fitur)
+- Akan mencoba algoritma yang lebih kuat seperti Gradient Boosting di minggu berikutnya
+- Melakukan hyperparameter tuning pada Random Forest
+
+Proyek saat ini sudah melewati tahap audit, preparation, dan modeling awal.
